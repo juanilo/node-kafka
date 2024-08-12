@@ -9,7 +9,7 @@ async function producer() {
   const topic = process.argv[2];
   const message = process.argv[3];
 
-  console.log(`[*] Sending message : "${message}" with topic : [${topic}]...`);
+  console.log(`[x] Sending message : "${message}" with topic : [${topic}]...`);
   await producer
     .send({
       topic: topic,

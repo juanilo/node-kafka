@@ -1,4 +1,5 @@
 const { kafka } = require("./client");
+
 const group = process.argv[2];
 const topic = process.argv[3];
 
